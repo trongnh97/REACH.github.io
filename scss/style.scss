@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html{
+	scroll-behavior: smooth;
+	body{
+		font-family: 'Open Sans', sans-serif !important;
+	}
+}
+.sticky{
+	position: fixed !important;
+    background: #fff;
+    z-index: 99;
+    transition: all 500ms ease-in-out;
+	padding: 0 !important;
+	box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+@import "header";
+@import "about";
+@import "thongTin";
+@import "news";
+@import "signUp";
+@import "footer";
+@import "others";
+@import "responsive";
+
+

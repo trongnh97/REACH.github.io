@@ -1,0 +1,9 @@
+@mixin footerLink {
+    text-decoration:none;
+	display:inline-block;
+	margin-bottom:10px;
+	color:#969595;
+	&:hover{
+		text-decoration:underline;
+	}
+}

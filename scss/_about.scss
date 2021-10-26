@@ -1,0 +1,50 @@
+@import "variables";
+.about{
+    padding-top: 100px;
+    h2, strong{
+        color: $color-h-tag;
+    }
+    .btn{
+        position: relative;
+        transition: all .3s ease-in-out;
+        .fa-hand-point-right{
+            position:absolute;
+            left:0;
+            top:50%;
+            transform:translateY(-50%);
+            font-size:25px;
+        }
+        h5{
+            margin-left: 30px;
+            color: #fff;
+            transition: all .3s ease-in-out;
+            &:hover{
+                margin-left: 10px;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+    .courses{
+        .card{
+            cursor: pointer;
+            box-shadow:0 5px 30px rgba(0,0,0,0.08);
+            border:none;
+            padding: 30px;
+            transition: .3s;
+            &:hover{
+                box-shadow:0 0 30px rgba(245,250,255,5%);
+                transition: .3s;
+            }
+        }
+        img{
+            height: 276px;
+            transition: .5s;
+            transform: scale(1.1);
+            &:hover{
+                transform: scale(1);
+                transition: .5s;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+//back to top
+.scroll-top{
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    color: #fff;
+    background: #5864ff;
+    width: 50px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+// end back to top
+// nút đăng ký fixed
+.button-sign-up{
+    position: fixed;
+    right: 60px;
+    bottom: 0;
+    .button-fixed{
+        width: 200px;
+        background: linear-gradient(#41abff, #9aaa11);
+        &:hover{
+            color: $color-hover;
+        }
+    }
+}

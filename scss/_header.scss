@@ -1,0 +1,71 @@
+@import "variables";
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 0;
+    transition: all 500ms ease-in-out;
+    .navbar-collapse{
+        transition: all .3s linear;
+    }
+    .nav-item{
+        margin-right: 10px;
+    }
+    .nav-link{
+        font-weight: 700;
+        color: #262626;
+        &:hover{
+            color: $color-hover;
+        }
+    }
+}
+// end header
+// start banner
+.banner{
+    background-image:url(../img/home-01.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:relative;
+    .detail{
+        padding-top: 200px;
+        padding-bottom: 310px;
+        position: relative;
+    }
+    .title{
+        width: 45%;
+        h1{
+            font-size: 28px;
+            font-weight: 700;
+            color: #ffc178;
+        }
+        p{
+            font-size: 18px;
+            color: #262626;
+        }
+        .btn{
+            font-weight: 700;
+            border-radius: 50px;
+            padding: 15px 45px;
+        }
+    }
+    .scroll-down{
+        position:absolute;
+        bottom:90px;
+        left:0;
+        font-size:25px;
+        a{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:45px;
+            height:45px;
+            border-radius:10px;
+            background:#333;
+            text-decoration:none;
+            color: #fff;
+            &:hover{
+                color: #fd7e14;
+            }
+        }
+    }
+}

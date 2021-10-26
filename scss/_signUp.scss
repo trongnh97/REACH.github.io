@@ -1,0 +1,12 @@
+@import "variables";
+.sign-up{
+    padding: 100px 0 100px;
+    h2{
+        color: $color-h-tag;
+    }
+    .row{
+        box-shadow:0 5px 30px rgba(0,0,0,0.08);
+        padding:20px;
+        border-radius:10px;
+    }
+}

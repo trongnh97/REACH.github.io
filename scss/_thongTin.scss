@@ -1,0 +1,26 @@
+@import "variables";
+.numbers{
+    padding: 100px 0 120px;
+    .media{
+        padding-bottom: 22px;
+        background-image:url(../img/home-02.png);
+	    background-size:cover;
+        iframe{
+            border-radius:50%;
+            margin-left:210px;
+            margin-top:28px;
+        }
+    }
+    h2{
+        color: $color-h-tag;
+    }
+    .detail{
+        p{
+            font-size: 18px;
+            color: #ff5f72;
+        }
+        h3{
+            color: #43cb83;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+//mobile
+@media screen and (max-width:767px) {
+    h3, p{
+        font-size: 12px !important;
+    }
+    header{
+        padding: 0;
+        .show{
+            background:#fff;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 5px 30px rgba(0,0,0,0.08);
+            transition: all .3s linear;
+		    .btn{
+			    margin-bottom:15px;
+		    }
+        }
+        .navbar-toggler{
+            font-size: 1.9rem;
+        }
+    }
+    .banner{
+        .detail{
+            padding: 100px 0 0;
+        }
+        h1{
+            font-size: 0.9em !important;
+        }
+        p, .scroll-down{
+            display: none;
+        }
+        .btn{
+            padding: 10px 20px !important;
+            margin-top: 70px;
+            font-size: 0.7em;
+        }
+    }
+    .about{
+        h5{
+            font-size: 1rem;
+        }
+    }
+    .numbers{
+        .video{
+            display: none;
+        }
+    }
+    .fb-livechat{
+        .bubble-msg{
+            display: none;
+        }
+        .ctrlq.fb-button, .ctrlq.fb-close{
+			right:0;
+		}
+    }
+}
+//end mobile
+//tablet
+@media screen and (min-width:768px) and (max-width:991px) {
+    .banner{
+        p{
+            display: none;
+        }
+        .btn{
+            padding-top: 30px;
+        }
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px) {
+    header{
+        .nav-item{
+            margin-right: 0;
+            .nav-link{
+                font-size: 12px;
+            }
+        }
+        .show{
+            background:#fff;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 5px 30px rgba(0,0,0,0.08);
+            transition: all .3s linear;
+		    .btn{
+			    margin-bottom:15px;
+		    }
+        }
+    }
+    .banner{
+        .detail{
+            padding-top: 130px;
+        }
+        h1{
+            font-size: 18px;
+            line-height: 40px;
+        }
+    }
+    .numbers{
+        .video{
+            transform: scale(0.6) !important;
+        }
+        h3{
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (min-width:1200px) {
+    .numbers{
+        .video{
+            transform: scale(0.8);
+        }
+    }
+}
